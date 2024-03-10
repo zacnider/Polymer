@@ -19,7 +19,7 @@ sudo mkdir -p /etc/apt/keyrings
 # içersine giriyoruz
 sudo nano /etc/apt/sources.list.d/nodesource.list
 # alttaki komutu içersine girdiğimiz dosyaya yazıyoruz. (# ile deb arasında boşluk bırakın)
-#deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesource.com/node_ jammy main
+# deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesource.com/node_ jammy main
 
 sudo apt update -y && sudo apt upgrade -y
 sudo apt-get install -y nodejs
